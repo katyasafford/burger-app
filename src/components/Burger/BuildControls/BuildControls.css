@@ -1,5 +1,5 @@
 .BuildControls {
-  width: 100;
+  width: 100%;
   background-color: #cf8f2e;
   display: flex;
   flex-flow: column;
@@ -7,6 +7,9 @@
   box-shadow: 0 2px 1px #ccc;
   margin: auto;
   padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  height: 200px;
 }
 
 .OrderButton {
@@ -17,8 +20,10 @@
     color: #966909;
     font-family: inherit;
     font-size: 1.2em;
-    padding: 15px 30px;
+    padding: 10px 10px 24px 10px;
+    border-radius: 4px;
     box-shadow: 2px 2px 2px #966909;
+    margin-top: 5px; 
 }
 
 .OrderButton:hover, .OrderButton:active {
